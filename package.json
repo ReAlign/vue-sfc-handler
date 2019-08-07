@@ -1,0 +1,38 @@
+{
+  "name": "vue-sfc-handler",
+  "version": "0.0.1",
+  "description": "Handle vue-sfc, add/edit/delete attrs, prettier, etc.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "body-parser": "^1.19.0",
+    "eslint": "^5.16.0",
+    "n-s-logs": "^0.2.0",
+    "prettier": "^1.18.2",
+    "vue-template-compiler": "^2.5.13",
+    "vue-sfc-descriptor-stringify": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReAlign/vue-sfc-handler.git"
+  },
+  "keywords": [
+    "vue",
+    "sfc",
+    "ast",
+    "parser",
+    "stringify",
+    "compiler",
+    "handler",
+    "attrs"
+  ],
+  "author": "ReAlign",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReAlign/vue-sfc-handler/issues"
+  },
+  "homepage": "https://github.com/ReAlign/vue-sfc-handler#readme"
+}
