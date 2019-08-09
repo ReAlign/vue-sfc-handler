@@ -25,6 +25,7 @@ Handler.handle = async (options = {}) => {
         handleEvt = null, // 自定义操作函数，入参：，需要返回：
         pretty = false, // 是否需要 pretty
         prettierConf = {}, // 配置
+        stringifyOptions = {}, // Stringify options
     } = options;
     let fileContent = null;
 
@@ -53,7 +54,7 @@ Handler.handle = async (options = {}) => {
     }
 
     // 由 sfc 生成的 string
-    fileContent = Stringify(newDescriptor, oriDescriptor);
+    fileContent = Stringify(newDescriptor, oriDescriptor, stringifyOptions);
 
     // 需要格式化
     if(pretty) {

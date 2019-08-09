@@ -1,6 +1,6 @@
 {
   "name": "vue-sfc-handler",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Handle vue-sfc, add/edit/delete attrs, prettier, etc.",
   "main": "src/index.js",
   "scripts": {

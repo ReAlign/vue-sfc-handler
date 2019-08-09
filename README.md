@@ -27,6 +27,7 @@ Handler({
     handleEvt, // 自定义操作函数，入参：，需要返回：
     pretty = false, // 是否需要 pretty
     prettierConf = {}, // 配置
+    stringifyOptions = {}, // Stringify options，具体参见：https://github.com/ReAlign/vue-sfc-descriptor-stringify#call options
 })
     .then(res => {
         /**
